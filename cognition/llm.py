@@ -1,5 +1,6 @@
 import subprocess
 
+#using ollama qwen3:1.7b model
 MODEL_NAME = 'qwen3:1.7b'
 
 def query_llm(prompt:str) -> str:

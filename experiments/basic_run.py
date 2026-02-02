@@ -4,8 +4,8 @@ from simulation.loop import run_simulation
 
 world = World()
 
-yash = Agent('Yash', {'kindness':0.8})
-cham = Agent('Cham', {'kindness':0.3})
+yash = Agent('Yashu', {'kindness':0.8})
+cham = Agent('Chami', {'kindness':0.3})
 
 world.add_agent(yash)
 world.add_agent(cham)
